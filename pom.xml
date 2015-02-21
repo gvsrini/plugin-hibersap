@@ -12,7 +12,7 @@
     </license>
   </licenses>
   <properties>
-    <jco.version>[3.0.0,)</jco.version>
+    <jco.version>3.0.1</jco.version>
     <servlet-api.version>3.0.1</servlet-api.version>
     <validation-api.version>1.0.0.GA</validation-api.version>
     <hibersap.version>1.2.0-Beta03</hibersap.version>
