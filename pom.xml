@@ -71,14 +71,15 @@
   </dependencies>
   <repositories>
     <repository>
-      <id>JBOSS_NEXUS</id>
-      <url>http://repository.jboss.org/nexus/content/groups/public</url>
-    </repository>
-    <repository>
       <id>Hibersap_Maven_Repository</id>
       <name>Hibersap Repository for Maven</name>
       <url>http://central.maven.org/maven2/</url>
     </repository>
+    <repository>
+      <id>JBOSS_NEXUS</id>
+      <url>http://repository.jboss.org/nexus/content/groups/public</url>
+    </repository>
+
   </repositories>
   <build>
     <finalName>hibersap-plugin</finalName>
