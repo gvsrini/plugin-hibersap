@@ -175,11 +175,11 @@ public final class GenerateSAPEntitiesPlugin implements Plugin {
         final SAPFunctionModuleSearch functionModuleSearch = new SAPFunctionModuleSearch( namePattern, maxResults );
         final Session session = sessionManager.openSession();
 
-        try {
-            session.execute( functionModuleSearch );
-        } finally {
-            session.close();
-        }
+//        try {
+//            session.execute( functionModuleSearch );
+//        } finally {
+//            session.close();
+//        }
 
 //        final List<String> functionNames = functionModuleSearch.getFunctionNames();
 //        functionNames.add( "Cancel" );
