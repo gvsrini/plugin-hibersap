@@ -181,10 +181,12 @@ public final class GenerateSAPEntitiesPlugin implements Plugin {
             session.close();
         }
 
-        final List<String> functionNames = functionModuleSearch.getFunctionNames();
-        functionNames.add( "Cancel" );
-        final String functionName = this.shell.promptChoiceTyped(
-                "\nSelect a function to generate the necessary Java classes:", functionNames );
+//        final List<String> functionNames = functionModuleSearch.getFunctionNames();
+//        functionNames.add( "Cancel" );
+//        final String functionName = this.shell.promptChoiceTyped(
+//                "\nSelect a function to generate the necessary Java classes:", functionNames );
+        
+        final String functionName = "ZPDA_GETCUSTOMRDET";
 
         if ( !functionName.equals( "Cancel" ) ) {
             final ReverseBapiMapper reverseBAPIMapper = new ReverseBapiMapper();
