@@ -213,7 +213,7 @@ public final class GenerateSAPEntitiesPlugin implements Plugin {
 		// "\nSelect a function to generate the necessary Java classes:",
 		// functionNames );
 
-		final String[] functionNames = new String[] { "BAPI_GOODSMVT_CREATE",
+		final String[] functionNames = new String[] { "ZPDA_GETCUSTOMRDET","BAPI_GOODSMVT_CREATE",
 				"ZSAM_CUST_DETAILS", "ZSAM_MAT_AVAILABILITY", "ZSAM_MAT_DES",
 				"ZSAM_PLANT_DES", "ZSAM_PRICE", "BAPI_MATERIAL_STOCK_REQ_LIST" };
 
