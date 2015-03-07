@@ -215,7 +215,7 @@ public final class GenerateSAPEntitiesPlugin implements Plugin {
 
 		final String[] functionNames = new String[] { "ZPDA_GETCUSTOMRDET","BAPI_GOODSMVT_CREATE",
 				"ZSAM_CUST_DETAILS", "ZSAM_MAT_AVAILABILITY", "ZSAM_MAT_DES",
-				"ZSAM_PLANT_DES", "ZSAM_PRICE", "BAPI_MATERIAL_STOCK_REQ_LIST" };
+				"ZSAM_PLANT_DES", "ZSAM_PRICE", "BAPI_SALESORDER_CREATEFROMDAT2", "BAPI_SALESORDER_CREATEFROMDATA", "BAPI_MATERIAL_STOCK_REQ_LIST" };
 
 		for (String functionName : functionNames) {
 			if (!functionName.equals("Cancel")) {
