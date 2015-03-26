@@ -213,7 +213,7 @@ public final class GenerateSAPEntitiesPlugin implements Plugin {
 		// "\nSelect a function to generate the necessary Java classes:",
 		// functionNames );
 
-		final String[] functionNames = new String[] { "ZPORTALORDER_CREATEFROMDAT2" };
+		final String[] functionNames = new String[] { "ZECOM_ORD_STATUS" };
 
 		for (String functionName : functionNames) {
 			if (!functionName.equals("Cancel")) {
